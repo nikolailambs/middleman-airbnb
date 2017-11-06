@@ -7,15 +7,15 @@
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
     <title></title>
-    <link href="stylesheets/application-764eee10.css" rel="stylesheet" />
-    <script src="javascripts/application-93de88c9.js"></script>
-    <link href="images/favicon-f15af148.png" rel="icon" type="image/png" />
+    <link href="../stylesheets/application-764eee10.css" rel="stylesheet" />
+    <script src="../javascripts/application-93de88c9.js"></script>
+    <link href="../images/favicon-f15af148.png" rel="icon" type="image/png" />
   </head>
   <body>
     <div class="navbar-wagon">
   <!-- Logo -->
 
-<a href="./" class="navbar-wagon-brand">  <img src="images/logo-acc9c0ec.png" alt="logo" />
+<a href="../" class="navbar-wagon-brand">  <img src="../images/logo-acc9c0ec.png" alt="logo" />
 </a>
 
 <!-- Right Navigation -->
@@ -24,7 +24,7 @@
   <a href="" class="navbar-wagon-item navbar-wagon-link">Host</a>
   <a href="" class="navbar-wagon-item navbar-wagon-link">Trips</a>
   <!--     <a href="" class="navbar-wagon-item navbar-wagon-link">Team</a> -->
-  <a href="team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
+  <a href="../team.html" class="navbar-wagon-item navbar-wagon-link">Team</a>
 
   <!-- Profile picture with dropdown list -->
   <div class="navbar-wagon-item">
@@ -52,18 +52,51 @@
 </div>
 </div>
 
-    <div class="container">
-  <div class="col-md-6 col-md-offset-3">
-    <ul class="list-inline text-center team-margin">
-      <li>
-        <img src="https://kitt.lewagon.com/placeholder/users/sarahlafer" class="img-circle" width="160px" alt="Sarahlafer" />
-        <h3>Sarahlafer</h3>
-      </li>
-      <li>
-        <img src="https://kitt.lewagon.com/placeholder/users/nikolailambs" class="img-circle" width="160px" alt="Nikolailambs" />
-        <h3>Nikolailambs</h3>
-      </li>
-    </ul>
+    
+
+
+
+<div class="wrapper">
+  <div class="background-banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://kitt.lewagon.com/placeholder/cities/london');">
+
+  </div>
+  <div class="booking-room">
+    <div class="row">
+      <div class="description-group col-md-4 col-md-offset-2">
+        <div class="avatar-name text-center">
+          <img src="https://kitt.lewagon.com/placeholder/users/monsieurpaillard" class="img-circle img-avatar" alt="Monsieurpaillard" />
+          <p>monsieurpaillard</p>
+        </div>
+        <div class="avatar-description">
+          <h4>Nice flat in Piccadilly</h3>
+            <p>London, UK</p>
+          </div>
+        </div>
+        <form class="booking-form col-md-4 col-md-offset-8">
+          <div class="form-row">
+            <h2>Book this flat</h2>
+            <div class="form-group col-md-6">
+              <input type="date" class="form-control" id="checkin" placeholder="checkin">
+            </div>
+            <div class="form-group col-md-6">
+              <input type="date" class="form-control" id="checkout" placeholder="checkout">
+            </div>
+          </div>
+          <div class="form-group col-md-12">
+            <select id="inputState" class="form-control">
+              <option>1 guest</option>
+              <option>2 guest</option>
+              <option>3 guest</option>
+            </select>
+          </div>
+          <button type="submit" class="btn btn-danger col-md-12">Book it!</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="description-room">
+
   </div>
 </div>
 
